@@ -1,0 +1,80 @@
+/* Reset พื้นฐาน */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a; /* สีน้ำเงินเข้ม */
+  color: #e2e8f0;            /* สีเทาอ่อน */
+  line-height: 1.6;
+}
+
+/* ปรับแต่ง Navbar ให้สวยงาม */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav .logo span {
+  color: #0ea5e9; /* สีฟ้า */
+}
+
+nav a {
+  text-decoration: none;
+  color: #94a3b8;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* ปรับแต่งพื้นที่เนื้อหา */
+main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* สไตล์พื้นฐานของหัวข้อ */
+h1, h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* Card สไตล์ */
+.card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #334155;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #0ea5e9;
+}
+
+/* ปรับแต่ง Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #334155;
+  border-radius: 4px;
+}
