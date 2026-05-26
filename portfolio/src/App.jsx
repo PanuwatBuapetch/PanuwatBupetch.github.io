@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -6,7 +6,7 @@ import Projects from './pages/Projects';
 
 function App() {
   return (
-    <Router>
+   <Router basename="/PanuwatBupetch.github.io">
       <div className="min-h-screen bg-[#0f172a] text-slate-200 font-sans">
         <Navbar />
         <main className="max-w-6xl mx-auto px-6">
